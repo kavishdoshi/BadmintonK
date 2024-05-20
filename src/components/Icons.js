@@ -1,5 +1,48 @@
 import * as React from "react";
 
+export const ScheduleIcon = ({ className, ...rest }) => (
+  <svg
+      viewBox="0 0 21 21"
+      fill="currentColor"
+      height="1em"
+      width="1em"
+      {...rest}
+      className={`w-full h-auto ${className}`}
+    >
+      <path d="M12 14a1 1 0 10-1-1 1 1 0 001 1zm5 0a1 1 0 10-1-1 1 1 0 001 1zm-5 4a1 1 0 10-1-1 1 1 0 001 1zm5 0a1 1 0 10-1-1 1 1 0 001 1zM7 14a1 1 0 10-1-1 1 1 0 001 1zM19 4h-1V3a1 1 0 00-2 0v1H8V3a1 1 0 00-2 0v1H5a3 3 0 00-3 3v12a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 15a1 1 0 01-1 1H5a1 1 0 01-1-1v-9h16zm0-11H4V7a1 1 0 011-1h14a1 1 0 011 1zM7 18a1 1 0 10-1-1 1 1 0 001 1z" />
+    </svg>
+);
+
+export const EmailIcon = ({ className, ...rest }) => (
+  <svg
+      viewBox="0 0 20 20"
+      fill="currentColor"
+      height="1em"
+      width="2em"
+      {...rest}
+      className={`w-full h-auto ${className}`}
+    >
+      <path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6m-2 0l-8 5-8-5h16m0 12H4V8l8 5 8-5v10z" />
+    </svg>
+);
+
+export const PhoneIcon = ({ className, ...rest }) => (
+  <svg
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      viewBox="0 0 24 24"
+      height="1em"
+      width="1em"
+      {...rest}
+      className={`w-full h-auto ${className}`}
+    >
+      <path d="M15.05 5A5 5 0 0119 8.95M15.05 1A9 9 0 0123 8.94m-1 7.98v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+    </svg>
+);
+
 export const GithubIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
