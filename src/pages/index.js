@@ -30,7 +30,7 @@ export default function Home() {
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>As a skilled developer, I am dedicated to turning ideas into applications. </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>Contact</p>
-              <Link href="mailto:buzmionloukert@gmail.com" target={"_blank"}
+              <Link href="https://calendly.com/buzmionloukert" target={"_blank"}
                 className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base'>
                   <ScheduleIcon />
                 </Link>
